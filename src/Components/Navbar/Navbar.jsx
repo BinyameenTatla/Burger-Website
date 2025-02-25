@@ -74,9 +74,7 @@ export const Navbar = () => {
 
                     {/* Order Button (For Desktop) - Right Side */}
                     <div className="md:flex justify-end">
-                        <button className="text-white bg-[hsl(0,86%,58%)] hover:bg-[hsl(0,86%,58%)] text-lg py-2 px-4 rounded-md transition-all duration-300">
-                            Order
-                        </button>
+                        
                     </div>
 
                     {/* Hamburger Icon (For Mobile) with Animation */}

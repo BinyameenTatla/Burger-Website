@@ -31,7 +31,7 @@ export const Hero = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             nextImage();
-        }, 3000); // Change every 3 seconds
+        }, 1000); // Change every 3 seconds
 
         // Cleanup interval when component is unmounted
         return () => clearInterval(intervalId);
@@ -46,7 +46,7 @@ export const Hero = () => {
         <div style={bgImage} className="min-h-[650px]">
             <div className="min-h-[650px] backdrop-blur-md flex justify-center items-center">
                 {/* Main Layout Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-6 max-w-6xl mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 p-5 max-w-6xl mx-auto">
                     
                     {/* Left Section with Text */}
                     <div className="text-center sm:text-left flex justify-center items-center sm:block">
@@ -56,10 +56,10 @@ export const Hero = () => {
                             </h1>
                             <p className="text-sm sm:text-base py-5 text-white opacity-80">
                             Welcome to Burger King, where flame-grilled goodness meets unbeatable taste. Indulge in our signature Whopper and a variety of mouthwatering options. Every bite is a burst of flavor, made just for you!
-                            </p>
+                            </p><br></br>
                             <button className="bg-[hsl(0,65%,50%)] text-white px-6 py-3 rounded-lg text-lg hover:bg-[#de37ba] transition-all duration-300">
                                 Order Now
-                            </button>
+                            </button><br></br><br></br><br></br>
                         </div>
                     </div>
 
